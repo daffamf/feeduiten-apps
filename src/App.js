@@ -11,26 +11,26 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <div className='container'>
+        <div className='container py-5'>
 
           <div className='row'>
-            <div className='col-12'>
+            <div className='col-12 text-center'>
               <h1>Feeduiten Apps</h1>
-              <hr />
-              <h4>Rp.1.500.00,-</h4>
-              <span>Sisa uang kamu tersisa 75% lagi </span>
+              <hr className='w-75 mx-auto' />
+              <h2 className='fw-bold'>Rp. 1.500.00,-</h2>
+              <span className='title'>Sisa uang kamu tersisa 75% lagi </span>
             </div>
           </div>
 
 
           <div className='row'>
             <div className='col-6'>
-              <div className='card-wraper'>
-                <div className='icon-wrapper'>
+              <div className='card-wraper p-4'>
+                <div className='icon-wraper '>
                   <i class="bi bi-wallet2"></i>
                 </div>
                 <span className='title'>Pemasukan</span>
-                <h3>Rp. 2000.000,-</h3>
+                <h3 className='fw-bold'>Rp. 2000.000,-</h3>
                 <div>
                   <span className='title text-ungu'>50</span><span className='Title'>Transaksi</span>
                 </div>
@@ -51,7 +51,7 @@ class App extends React.Component {
           <div className='row'>
             <div className='col-12 d-flex justify-content-between align-items-center'>
               <div className='d-flex align-items-center'>   
-                <div className='icon-wrapper'>
+                <div className='icon-wraper'>
                   <i class="bi bi-wallet2"></i>
 
                 </div>
