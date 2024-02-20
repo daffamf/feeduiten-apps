@@ -23,45 +23,66 @@ class App extends React.Component {
           </div>
 
 
-          <div className='row'>
+          <div className='row mt-4'>
             <div className='col-6'>
               <div className='card-wraper p-4'>
-                <div className='icon-wraper '>
+                <div className='icon-wraper mb-1'>
                   <i class="bi bi-wallet2"></i>
                 </div>
-                <span className='title'>Pemasukan</span>
+                <span className='title '>Pemasukan</span>
                 <h3 className='fw-bold'>Rp. 2000.000,-</h3>
                 <div>
-                  <span className='title text-ungu'>50</span><span className='Title'>Transaksi</span>
+                  <span className='title-sm text-ungu fw-bold'>50</span> <span className='Title-sm'>Transaksi</span>
                 </div>
               </div>
             </div>
 
+
+            <div className='col-6'>
+              <div className='card-wraper p-4'>
+                <div className='icon-wraper mb-1'>
+                  <i class="bi bi-cash-stack"></i>
+                </div>
+                <span className='title '>Pemasukan</span>
+                <h3 className='fw-bold'>Rp. 2000.000,-</h3>
+                <div>
+                  <span className='title-sm text-ungu fw-bold'>50</span> <span className='Title-sm'>Transaksi</span>
+                </div>
+              </div>
+            </div>
+
+
           </div>
-          <div className='row'>
+
+
+
+
+
+
+          <div className='row mt-4'>
             <div className='col-12 d-flex justify-content-between align-items-center'>
-              <h2> Ringkasan Transaksi</h2>
+              <h4> Ringkasan Transaksi</h4>
               <div className='wrapper-button'>
-                <button>Pemasukan   <i class="bi bi-plus-circle-fill"></i></button>
-                <button>Pengeluaran   <i class="bi bi-dash-circle-fill"></i></button>
+                <button className='button btn-ungu px-3 py-2 me-2'>Pemasukan   <i class="bi bi-plus-circle-fill"></i></button>
+                <button className='button btn-pink px-3 py-2 me-2'>Pengeluaran   <i class="bi bi-dash-circle-fill"></i></button>
 
               </div>
             </div>
           </div>
-          <div className='row'>
+          <div className='row mt-4'>
             <div className='col-12 d-flex justify-content-between align-items-center'>
-              <div className='d-flex align-items-center'>   
+              <div className='d-flex align-items-center'>
                 <div className='icon-wraper'>
                   <i class="bi bi-wallet2"></i>
 
                 </div>
-                <div className='transaction'>
+                <div className='transaction ms-2 d-flex flex-column'>
                   <h6>Menerima Gaji</h6>
                   <span className='title'>1 july 2022</span>
                 </div>
 
               </div>
-              <h5 className='money'>Rp. 1000.000 ,-</h5>
+              <h5 className='money-in'>Rp. 1000.000 ,-</h5>
             </div>
           </div>
         </div>

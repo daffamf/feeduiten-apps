@@ -61,6 +61,60 @@ h2{
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  line-height: 36px;
+  line-height: 24px !important;
   color: #454545;
+}
+
+
+
+text-ungu{
+  color: #3c3d8f;
+}
+h4{
+  font-weight: 600 !important;
+  font-size: 28px;
+  line-height: 30px;
+  background: linear-gradient(267.81deg,#3c3d8f 1.92%,#2998ff 106.64%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.button{
+ 
+  border-radius: 8px;
+  border: none;
+  color: #FFFFFF;
+}
+
+.btn-ungu{
+  background: #3c3d8f;
+}
+
+.btn-pink{
+  background: #ff3666;
+}
+
+.h6{
+  font-weight: 400 !important;
+  font-size: 14px;
+  line-height: 16px;
+  color:#3c3d8f;
+}
+
+.money-in{
+  font-weight: 600 !important;
+  color: #3c3d8f;
+}
+
+
+.money-out{
+  font-weight: 600 !important;
+  color: #ff3666;
+}
+
+.h5{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
 }
